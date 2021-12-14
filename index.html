@@ -1,106 +1,382 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <title>Cheab - The Chemistry learning Lab</title>
-    <link href="./vendor/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="styles.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="Your description">
+    <meta name="author" content="Your name">
+
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+	<meta property="og:site_name" content="Rajeshwari Mandal Official" /> <!-- website name -->
+	<meta property="og:site" content="" /> <!-- website link -->
+	<meta property="og:title" content=""/> <!-- title shown in the actual shared post -->
+	<meta property="og:description" content="" /> <!-- description shown in the actual shared post -->
+	<meta property="og:image" content="" /> <!-- image link, make sure it's jpg -->
+	<meta property="og:url" content="" /> <!-- where do you want your post to link to -->
+	<meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+
+    <!-- Webpage Title -->
+    <title>Rajeshwari Mandal Official</title>
+    
+    <!-- Styles -->
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/fontawesome-all.min.css" rel="stylesheet">
+    <link href="css/swiper.css" rel="stylesheet">
+	<link href="css/styles.css" rel="stylesheet">
+	
+	<!-- Favicon  -->
+    <link rel="icon" href="images/favicon.png">
 </head>
-<body>
-<div class="p-5 bg-info text-white">
-    <div class="display-1">Welcome to Cheab</div>
-    <p><span class="badge bg-dark">The Chemistry learning Lab</span></p>
-</div>
+<body data-bs-spy="scroll" data-bs-target="#navbarExample">
+    
+    <!-- Navigation -->
+    <nav id="navbarExample" class="navbar navbar-expand-lg fixed-top navbar-dark" aria-label="Main navigation">
+        <div class="container">
 
-<div class="main">
-    <div class="container">
+            <!-- Image Logo -->
+            <a class="navbar-brand logo-image" href="index.html">Rajeshwari Mandal Official</a>
 
-        <div class="in-wrapper first-wrapper">
-            <div class="display-5 in-title">1st ingredient...</div>
-            <fieldset id="first_radio">
-                <div class="radio-tile-group" id="first_radio">
+            <!-- Text Logo - Use this if you don't have a graphic logo -->
+            <!-- <a class="navbar-brand logo-text" href="index.html">Elma</a> -->
 
-                    <div class="input-container">
-                        <input id="walk" class="radio-button" type="radio" name="first_in" value="01" />
-                        <div class="radio-tile">
-                            <div class="icon walk-icon">
-                                <img src="./images/na.jpg" alt="" height="112px" width="112px">
-                            </div>
-                            <label for="walk" class="radio-tile-label">Na</label>
-                        </div>
-                    </div>
-                    <div class="input-container">
-                        <input id="walk" class="radio-button" type="radio" name="first_in" value="02" />
-                        <div class="radio-tile">
-                            <div class="icon walk-icon">
-                                <img src="./images/k.jpg" alt="" height="112px" width="112px">
-                            </div>
-                            <label for="walk" class="radio-tile-label">K</label>
-                        </div>
-                    </div>
-                    <div class="input-container">
-                        <input id="walk" class="radio-button" type="radio" name="first_in" value="03" />
-                        <div class="radio-tile">
-                            <div class="icon walk-icon">
-                                <img src="./images/mg.jpg" alt="" height="112px" width="112px">
-                            </div>
-                            <label for="walk" class="radio-tile-label">Mg</label>
-                        </div>
+            <button class="navbar-toggler p-0 border-0" type="button" id="navbarSideCollapse" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="navbar-collapse offcanvas-collapse" id="navbarsExampleDefault">
+                <ul class="navbar-nav ms-auto navbar-nav-scroll">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#header">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About Cheab</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about2">About Youtube Channel</a>
+                    </li>
+                </ul>
+<!--                <span class="nav-item social-icons">-->
+<!--                    <span class="fa-stack">-->
+<!--                        <a href="#your-link">-->
+<!--                            <i class="fas fa-circle fa-stack-2x"></i>-->
+<!--                            <i class="fab fa-facebook-f fa-stack-1x"></i>-->
+<!--                        </a>-->
+<!--                    </span>-->
+<!--                    <span class="fa-stack">-->
+<!--                        <a href="#your-link">-->
+<!--                            <i class="fas fa-circle fa-stack-2x"></i>-->
+<!--                            <i class="fab fa-twitter fa-stack-1x"></i>-->
+<!--                        </a>-->
+<!--                    </span>-->
+<!--                </span>-->
+            </div> <!-- end of navbar-collapse -->
+        </div> <!-- end of container -->
+    </nav> <!-- end of navbar -->
+    <!-- end of navigation -->
+
+      
+    <!-- Header -->
+    <header id="header" class="header">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6">
+                    <h1 class="h1-large">
+                        Rajeshwari<br>
+                        Mandal<br>
+                        Official
+                    </h1>
+                </div> <!-- end of col -->
+                <div class="col-lg-6">
+                    <div class="button-container">
+                        <a class="btn-outline-lg" href="https://www.youtube.com/channel/UCHnoxohQtBuqaJOpDEGI1UA" target="_blank">Youtube</a>
+                        <a class="btn-solid-lg" href="./cheab.html">Open Cheab</a>
+                    </div> <!-- end of button-container -->
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </header> <!-- end of header -->
+    <!-- end of header -->
+
+    <!-- About -->
+    <div id="about" class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">About Rajeshwari Mandal's Youtube Channel</h2>
+                    <hr class="hr-heading">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12">
+                    <p style="color: #fff;text-align: center;">Welcome to the magical world of Chemistry by Rajeshwari Mandal Official.</p>
+                    <div class="button-container" style="text-align: center;">
+                        <a class="btn-solid-lg" href="./cheab.html">Open Cheab</a>
                     </div>
                 </div>
-                <div class="first_desc"></div>
-            </fieldset>
-        </div>
+                <!--                <div class="col-xl-6">-->
+                <!--                    <ul class="list-unstyled">-->
+                <!--                        <li class="d-flex">-->
+                <!--                            <h5 class="number">1.</h5>-->
+                <!--                            <div class="flex-grow-1">-->
+                <!--                                <h5>Expertise in digital products</h5>-->
+                <!--                                <div class="text">Civil those mrs enjoy shy fat merry. You greatest jointure saw horrible. He private he on be how the words look imagine suppose</div>-->
+                <!--                            </div>-->
+                <!--                        </li>-->
+                <!--                        <li class="d-flex">-->
+                <!--                            <h5 class="number">2.</h5>-->
+                <!--                            <div class="flex-grow-1">-->
+                <!--                                <h5>Highly skilled team of experts</h5>-->
+                <!--                                <div class="text">Blind there if every no so at. Own neglected you preferred way sincerity delivered his attempted. To of message more now cottage</div>-->
+                <!--                            </div>-->
+                <!--                        </li>-->
+                <!--                        <li class="d-flex">-->
+                <!--                            <h5 class="number">3.</h5>-->
+                <!--                            <div class="flex-grow-1">-->
+                <!--                                <h5>Partnerships with marketing agencies</h5>-->
+                <!--                                <div class="text">Be at miss or each good play home they. It leave taste mr in it fancy. She son lose does fond bred gave lady get. Sir her company</div>-->
+                <!--                            </div>-->
+                <!--                        </li>-->
+                <!--                    </ul>-->
+                <!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+                <!--                <div class="col-xl-6">-->
+                <!--                    -->
+                <!--                    &lt;!&ndash; Counter &ndash;&gt;-->
+                <!--                    <div class="counter-container">-->
+                <!--                        <div class="counter-cell">-->
+                <!--                            <div data-purecounter-start="0" data-purecounter-end="231" data-purecounter-duration="3" class="purecounter">1</div>-->
+                <!--                            <div class="counter-info">Happy Customers</div>-->
+                <!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+                <!--                        <div class="counter-cell">-->
+                <!--                            <div data-purecounter-start="0" data-purecounter-end="385" data-purecounter-duration="1.5" class="purecounter">1</div>-->
+                <!--                            <div class="counter-info">Issues Solved</div>-->
+                <!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+                <!--                        <div class="counter-cell">-->
+                <!--                            <div data-purecounter-start="0" data-purecounter-end="159" data-purecounter-duration="3" class="purecounter">1</div>-->
+                <!--                            <div class="counter-info">Good Reviews</div>-->
+                <!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+                <!--                        <div class="counter-cell">-->
+                <!--                            <div data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="3" class="purecounter">1</div>-->
+                <!--                            <div class="counter-info">Case Studies</div>-->
+                <!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+                <!--                    </div> &lt;!&ndash; end of counter-container &ndash;&gt;-->
+                <!--                    &lt;!&ndash; end of counter &ndash;&gt;-->
 
-        <div class="plus">+</div>
+                <!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of counter -->
+    <!-- end of about -->
 
-        <div class="in-wrapper second-wrapper">
-            <div class="display-5 in-title">2nd ingredient...</div>
-            <fieldset id="second_radio">
-                <div class="radio-tile-group">
-                    <div class="input-container">
-                        <input id="walk" class="radio-button" type="radio" name="second_in"value="01" />
-                        <div class="radio-tile">
-                            <div class="icon walk-icon">
-                                <img src="./images/ho.jpg" alt="" height="112px" width="112px">
-                            </div>
-                            <label for="walk" class="radio-tile-label">HO</label>
-                        </div>
+    <!-- About -->
+    <div id="about2" class="counter">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <h2 class="h2-heading">About Rajeshwari Mandal's Youtube Channel</h2>
+                    <hr class="hr-heading">
+                </div> <!-- end of col -->
+            </div> <!-- end of row -->
+            <div class="row">
+                <div class="col-lg-12" >
+                    <p style="color: #fff;">Welcome to the world of Rajeshwari Mandal Official.</p>
+                    <p style="color: #fff;">
+                        Overflowing with creativity, this channel aims to make your free hours more entertaining & sometimes a bit educational. So, make sure you subscribe whole-heartedly & turn the red button called "subscribe" to Grey each time you watch my videos so that you stay updated when new  videos are uploaded.</p>
+
+                        <p style="color: #fff;">Stay tuned for regular videos about Travel, Locations, Entertainment, Interviews, Education & more!</p>
+
+                        <p style="color: #fff;">For collaborations & business enquiries: <br>
+                            Email: <a href="mailto:rajeshwarimandal2008@gmail.com">rajeshwarimandal2008@gmail.com</a></p>
+
+                        <p style="color: #fff;">
+                            For Personal Inquiries: <br>
+                            Email: <a href="mailto:rajeshwarimandalttis@gmail.com">rajeshwarimandalttis@gmail.com</a>
+                        </p>
+
+                    <div class="button-container" style="text-align: center;">
+                        <a class="btn-solid-lg" href="https://www.youtube.com/channel/UCHnoxohQtBuqaJOpDEGI1UA" target="_blank">Visit Youtube</a>
                     </div>
-                    <div class="input-container">
-                        <input id="walk" class="radio-button" type="radio" name="second_in"value="02" />
-                        <div class="radio-tile">
-                            <div class="icon walk-icon">
-                                <img src="./images/cl.jpg" alt="" height="112px" width="112px">
-                            </div>
-                            <label for="walk" class="radio-tile-label">Cl</label>
-                        </div>
-                    </div>
-                    <div class="input-container">
-                        <input id="walk" class="radio-button" type="radio" name="second_in" value="03" />
-                        <div class="radio-tile">
-                            <div class="icon walk-icon">
-                                <img src="./images/co.jpg" alt="" height="112px" width="112px">
-                            </div>
-                            <label for="walk" class="radio-tile-label">CO</label>
-                        </div>
-                    </div>
+
+<!--                        <p>-->
+<!--                            Love you all! <br>-->
+<!--                            Stay safe & Healthy! <br>-->
+<!--                             - Rajeshwari-->
+<!--                        </p>-->
                 </div>
-                <div class="second_desc"></div>
-            </fieldset>
-        </div>
+<!--                <div class="col-xl-6">-->
+<!--                    <ul class="list-unstyled">-->
+<!--                        <li class="d-flex">-->
+<!--                            <h5 class="number">1.</h5>-->
+<!--                            <div class="flex-grow-1">-->
+<!--                                <h5>Expertise in digital products</h5>-->
+<!--                                <div class="text">Civil those mrs enjoy shy fat merry. You greatest jointure saw horrible. He private he on be how the words look imagine suppose</div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="d-flex">-->
+<!--                            <h5 class="number">2.</h5>-->
+<!--                            <div class="flex-grow-1">-->
+<!--                                <h5>Highly skilled team of experts</h5>-->
+<!--                                <div class="text">Blind there if every no so at. Own neglected you preferred way sincerity delivered his attempted. To of message more now cottage</div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                        <li class="d-flex">-->
+<!--                            <h5 class="number">3.</h5>-->
+<!--                            <div class="flex-grow-1">-->
+<!--                                <h5>Partnerships with marketing agencies</h5>-->
+<!--                                <div class="text">Be at miss or each good play home they. It leave taste mr in it fancy. She son lose does fond bred gave lady get. Sir her company</div>-->
+<!--                            </div>-->
+<!--                        </li>-->
+<!--                    </ul>-->
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--                <div class="col-xl-6">-->
+<!--                    -->
+<!--                    &lt;!&ndash; Counter &ndash;&gt;-->
+<!--                    <div class="counter-container">-->
+<!--                        <div class="counter-cell">-->
+<!--                            <div data-purecounter-start="0" data-purecounter-end="231" data-purecounter-duration="3" class="purecounter">1</div>-->
+<!--                            <div class="counter-info">Happy Customers</div>-->
+<!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+<!--                        <div class="counter-cell">-->
+<!--                            <div data-purecounter-start="0" data-purecounter-end="385" data-purecounter-duration="1.5" class="purecounter">1</div>-->
+<!--                            <div class="counter-info">Issues Solved</div>-->
+<!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+<!--                        <div class="counter-cell">-->
+<!--                            <div data-purecounter-start="0" data-purecounter-end="159" data-purecounter-duration="3" class="purecounter">1</div>-->
+<!--                            <div class="counter-info">Good Reviews</div>-->
+<!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+<!--                        <div class="counter-cell">-->
+<!--                            <div data-purecounter-start="0" data-purecounter-end="128" data-purecounter-duration="3" class="purecounter">1</div>-->
+<!--                            <div class="counter-info">Case Studies</div>-->
+<!--                        </div> &lt;!&ndash; end of counter-cell &ndash;&gt;-->
+<!--                    </div> &lt;!&ndash; end of counter-container &ndash;&gt;-->
+<!--                    &lt;!&ndash; end of counter &ndash;&gt;-->
 
-        <button type="button" id="submit-btn" class="btn btn-success submit-btn">Start Reaction</button>
-
-        <div class="result">
-
-        </div>
-    </div>
-</div>
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+            </div> <!-- end of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of counter -->
+    <!-- end of about -->
 
 
-<script src="./vendor/jquery.min.js"></script>
-<script src="./vendor/bootstrap.bundle.min.js"></script>
-<script src="script.js"></script>
+<!--    &lt;!&ndash; Contact &ndash;&gt;-->
+<!--    <div id="contact" class="form-1">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <h2 class="h2-heading">Let us know about your project</h2>-->
+<!--                    <p class="p-heading">Of will at sell well at as. Too want but tall nay like old removing yourself today</p>-->
+<!--                    <ul class="list-unstyled li-space-lg">-->
+<!--                        <li><i class="fas fa-map-marker-alt"></i> &nbsp;22 Innovative, San Francisco, CA 94043, US</li>-->
+<!--                        <li><i class="fas fa-phone"></i> &nbsp;<a href="tel:00817202212">+81 720 2212</a></li>-->
+<!--                        <li><i class="fas fa-envelope"></i> &nbsp;<a href="mailto:contact@site.com">contact@site.com</a></li>-->
+<!--                    </ul>-->
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--            </div> &lt;!&ndash; end of row &ndash;&gt;-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-10 offset-lg-1">-->
+<!--                    -->
+<!--                    &lt;!&ndash; Contact Form &ndash;&gt;-->
+<!--                    <form>-->
+<!--                        <div class="form-group">-->
+<!--                            <input type="text" class="form-control-input" placeholder="Name" required>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <input type="email" class="form-control-input" placeholder="Email" required>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <textarea class="form-control-textarea" placeholder="Message" required></textarea>-->
+<!--                        </div>-->
+<!--                        <div class="form-group">-->
+<!--                            <button type="submit" class="form-control-submit-button">Submit</button>-->
+<!--                        </div>-->
+<!--                    </form>-->
+<!--                    &lt;!&ndash; end of contact form &ndash;&gt;-->
+
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--            </div> &lt;!&ndash; end of row &ndash;&gt;-->
+<!--        </div> &lt;!&ndash; end of container &ndash;&gt;-->
+<!--    </div> &lt;!&ndash; end of form-1 &ndash;&gt;-->
+<!--    &lt;!&ndash; end of contact &ndash;&gt;-->
+
+
+<!--    &lt;!&ndash; Footer &ndash;&gt;-->
+<!--    <div class="footer">-->
+<!--        <div class="container">-->
+<!--            <div class="row">-->
+<!--                <div class="col-lg-12">-->
+<!--                    <div class="footer-col first">-->
+<!--                        <h6>About Elma</h6>-->
+<!--                        <p class="p-small">He oppose at thrown desire of no. Announcing impression unaffected day his are unreserved indulgence. Him hard find read are you</p>-->
+<!--                    </div> &lt;!&ndash; end of footer-col &ndash;&gt;-->
+<!--                    <div class="footer-col second">-->
+<!--                        <h6>Links</h6>-->
+<!--                        <ul class="list-unstyled li-space-lg p-small">-->
+<!--                            <li>Important: <a href="terms.html">Terms & Conditions</a>, <a href="privacy.html">Privacy Policy</a></li>-->
+<!--                            <li>Useful: <a href="#">Colorpicker</a>, <a href="#">Icon Library</a>, <a href="#">Illustrations</a></li>-->
+<!--                            <li>Menu: <a href="#header">Home</a>, <a href="#projects">Projects</a>, <a href="#services">Services</a>, <a href="#contact">Contact</a></li>-->
+<!--                        </ul>-->
+<!--                    </div> &lt;!&ndash; end of footer-col &ndash;&gt;-->
+<!--                    <div class="footer-col third">-->
+<!--                        <span class="fa-stack">-->
+<!--                            <a href="#your-link">-->
+<!--                                <i class="fas fa-circle fa-stack-2x"></i>-->
+<!--                                <i class="fab fa-facebook-f fa-stack-1x"></i>-->
+<!--                            </a>-->
+<!--                        </span>-->
+<!--                        <span class="fa-stack">-->
+<!--                            <a href="#your-link">-->
+<!--                                <i class="fas fa-circle fa-stack-2x"></i>-->
+<!--                                <i class="fab fa-twitter fa-stack-1x"></i>-->
+<!--                            </a>-->
+<!--                        </span>-->
+<!--                        <span class="fa-stack">-->
+<!--                            <a href="#your-link">-->
+<!--                                <i class="fas fa-circle fa-stack-2x"></i>-->
+<!--                                <i class="fab fa-pinterest-p fa-stack-1x"></i>-->
+<!--                            </a>-->
+<!--                        </span>-->
+<!--                        <span class="fa-stack">-->
+<!--                            <a href="#your-link">-->
+<!--                                <i class="fas fa-circle fa-stack-2x"></i>-->
+<!--                                <i class="fab fa-instagram fa-stack-1x"></i>-->
+<!--                            </a>-->
+<!--                        </span>-->
+<!--                        <p class="p-small">We would love to hear from you <a href="mailto:contact@site.com"><strong>contact@site.com</strong></a></p>-->
+<!--                    </div> &lt;!&ndash; end of footer-col &ndash;&gt;-->
+<!--                </div> &lt;!&ndash; end of col &ndash;&gt;-->
+<!--            </div> &lt;!&ndash; end of row &ndash;&gt;-->
+<!--        </div> &lt;!&ndash; end of container &ndash;&gt;-->
+<!--    </div> &lt;!&ndash; end of footer &ndash;&gt;  -->
+<!--    &lt;!&ndash; end of footer &ndash;&gt;-->
+
+
+    <!-- Copyright -->
+    <div class="copyright">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="p-small">Copyright © <span id="current_year"></span> <u><a href="./index.html">Rajeshwari Mandal Official
+                    </a></u></p>
+                </div> <!-- end of col -->
+            </div> <!-- enf of row -->
+        </div> <!-- end of container -->
+    </div> <!-- end of copyright --> 
+    <!-- end of copyright -->
+    
+
+    <!-- Back To Top Button -->
+    <button onclick="topFunction()" id="myBtn">
+        <img src="images/up-arrow.png" alt="alternative">
+    </button>
+    <!-- end of back to top button -->
+    	
+    <!-- Scripts -->
+    <script src="js/bootstrap.min.js"></script> <!-- Bootstrap framework -->
+    <script src="js/swiper.min.js"></script> <!-- Swiper for image and text sliders -->
+    <script src="js/purecounter.min.js"></script> <!-- Purecounter counter for statistics numbers -->
+    <script src="js/scripts.js"></script> <!-- Custom scripts -->
 </body>
 </html>

@@ -1,9 +1,14 @@
 .container {
     display: flex;
     padding-top: 20px;
-    align-items: center;
+    align-items: center !important;
     flex-direction: column;
     padding-bottom: 40px;
+}
+.back-btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
 }
 .main {
     /*background-image: url('https://wallpaperaccess.com/full/1483956.jpg');*/
